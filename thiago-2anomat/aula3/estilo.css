@@ -1,0 +1,142 @@
+/* estilo do body */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* estilo do título principal */
+  h1 {
+    color: #555;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+  /* estilo dos subtítulos */
+  h2 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+  }
+  
+  /* estilo do texto principal */
+  p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* estilo da lista ordenada */
+  ol {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* estilo da lista não ordenada */
+  ul {
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* estilo dos itens de lista */
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* estilo dos labels */
+  label {
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  /* estilo dos campos de entrada */
+  input[type=text], input[type=email], input[type=password], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* estilo dos campos checkbox e rádio */
+  input[type=checkbox], input[type=radio] {
+    margin-right: 10px;
+  }
+
+  fieldset{
+    border:1px solid #ccc;
+    display:block;
+    margin:5px 0;
+    padding:10px;
+    border-radius:20px;
+  }
+  
+  
+  /* estilo dos campos select */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* estilo do botão de envio */
+  button{
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* estilo do botão de reset */
+  button[type=reset] {
+    background-color: #f0ad4e;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  /* estilo do Box */
+  .box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #fff;
+  }
+  .container {
+      background-color: #f2f2f2;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px #888888;
+      margin: 20px auto;
+      padding: 20px;
+      width: 80%;
+  }
+  .box-resposta {
+    background-color: #ffffff; /* cor branca */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* sombra com desfoque */
+    padding: 10px; /* espaço interno */
+  }

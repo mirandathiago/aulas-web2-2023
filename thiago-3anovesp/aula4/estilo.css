@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f6e58d;
+}
+
+.container {
+	max-width: 500px;
+	margin: auto;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #cccccc;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 10px;
+}
+
+h3 {
+	color: #ff6b6b;
+}
+
+h4 {
+	color: #badc58;
+}
+
+h5 {
+	color: #ff9ff3;
+}
+
+p {
+	color: #666666;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.vermelho{
+    background-color:#ff6b6b;
+    color:#333333;
+}
+
+.verde{
+    background-color:#badc58;
+    color:#333333;
+}
+
+
+button {
+	background-color: #55efc4;
+	color: #ffffff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.link {
+	color: #55efc4;
+	text-decoration: none;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #ffffff;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.link:hover {
+	background-color: #55efc4;
+	color: #ffffff;
+}
+
+/* Estilos do formulário */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	font-weight: bold;
+	color: #333333;
+	margin-bottom: 5px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+
+select {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;  
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+input[type="radio"]:checked + label,
+input[type="checkbox"]:checked + label {
+	color: #55efc4;
+}
+
+input[type="submit"] {
+	background-color: #55efc4;
+	color: #ffffff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
